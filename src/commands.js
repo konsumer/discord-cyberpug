@@ -21,7 +21,7 @@ export async function strategy (interaction) {
 }
 
 /**
- * Lookup the definition of somrthing with Cambridge Dictionary
+ * Lookup the definition of something with Cambridge Dictionary
  *
  * @param {String} [word] The word to lookup
  */
