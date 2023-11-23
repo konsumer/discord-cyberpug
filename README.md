@@ -86,9 +86,7 @@ This repository is set up to automatically deploy to Cloudflare Workers when new
 
 ```yaml
 release:
-  if: github.ref == 'refs/heads/main'
   runs-on: ubuntu-latest
-  needs: [test, lint]
   steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
@@ -97,8 +95,8 @@ release:
     - run: npm install
     - run: npm run publish
       env:
-        CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 ```
 
 ### Storing secrets
