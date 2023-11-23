@@ -1,14 +1,29 @@
 {
-  "name": "house-discord",
+  "name": "discord-cyberpug",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "ngrok": "ngrok http 8787",
+    "register": "node -r dotenv/config src/register.js dotenv_config_path=.dev.vars"
   },
   "devDependencies": {
-    "itty-router": "^3.0.12",
+    "acorn": "^8.11.2",
+    "dotenv": "^16.3.1",
+    "ngrok": "^5.0.0-beta.2",
+    "parse-comments": "^1.0.0",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "cambridge-dictionary": "^0.1.1",
+    "cheerio": "^1.0.0-rc.12",
+    "discord-interactions": "^3.4.0",
+    "htmlparser2": "^9.0.0",
+    "itty-router": "^3.0.12",
+    "jsdom": "^22.1.0",
+    "oblique-strategies": "^1.0.1"
   }
 }
