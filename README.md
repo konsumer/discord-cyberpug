@@ -5,7 +5,9 @@ I use it to play with ideas, it runs as a cloudflare worker, based on ideas from
 - `/strategy` - Get an [Oblique Strategy](https://en.wikipedia.org/wiki/Oblique_Strategies)
 - `/define <WORD>` - Lookup the definition of something with Cambridge Dictionary
 
-[add it to yuor discord](https://discord.com/api/oauth2/authorize?client_id=825469215330271283&permissions=274877908992&scope=bot)
+[Add it to your Discord](https://discord.com/api/oauth2/authorize?client_id=825469215330271283&permissions=274877908992&scope=bot)
+
+You can edit commands [here](https://github.com/konsumer/discord-cyberpug/blob/main/src/commands.js). Comments are parsed for the description, to make it simple to make changes.
 
 ## Configuring project
 
