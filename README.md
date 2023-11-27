@@ -2,8 +2,8 @@ This is cyberpug discord bot.
 
 I use it to play with ideas, it runs as a cloudflare worker, based on ideas from [cloudflare-sample-app](https://github.com/discord/cloudflare-sample-app).
 
-- `/strategy` - get an [oblique strategy](https://en.wikipedia.org/wiki/Oblique_Strategies)
-- `/define <WORD>` - Get the definition of a word
+- `/strategy` - Get an [Oblique Strategy](https://en.wikipedia.org/wiki/Oblique_Strategies)
+- `/define <WORD>` - Lookup the definition of something with Cambridge Dictionary
 
 [add it to yuor discord](https://discord.com/api/oauth2/authorize?client_id=825469215330271283&permissions=274877908992&scope=bot)
 
